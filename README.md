@@ -16,6 +16,10 @@ App
   │ ├── SearchForm
   │ └─┬ Results
   │   └── Row
+  ├─┬ Search
+  │ ├── SearchForm
+  │ └─┬ Results
+  │   └── Row
   └─┬ Stock
     ├── StockHeader
     ├─┬  Graph
