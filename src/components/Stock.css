@@ -1,0 +1,24 @@
+/* td {
+  width: 15%;
+} */
+ /* .label {
+  width: 15%;
+} */
+
+/* .figure {
+  width: 60%;
+} */
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
