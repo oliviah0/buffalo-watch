@@ -5,6 +5,8 @@ Users can search stocks and view React-vis graphs to track daily, weekly, or mon
 
 Users have the ability to follow/unfollow stocks.
 
+Users can reorder their stock watchlist with drag and drop functionality.
+
 ### Component Architecture
 
 ```

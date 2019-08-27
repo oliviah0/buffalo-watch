@@ -71,7 +71,7 @@ export const watchlistQuotes = {
     volume: "936584",
     volume_avg: "757450"
   }
-}
+};
 
 export const stockData = {
   "52_week_high": "217.63",
