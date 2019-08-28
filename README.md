@@ -7,6 +7,13 @@ Users have the ability to follow/unfollow stocks.
 
 Users can reorder their stock watchlist with drag and drop functionality.
 
+### React Libraries
+* React-vis
+* React-beautiful-dnd
+* React-Bootstrap
+* React-spinners
+* Styled-components
+
 ### Component Architecture
 
 ```

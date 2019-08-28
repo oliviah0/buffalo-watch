@@ -1,3 +1,7 @@
+/**
+ * Home2 contains drag and drop functionality
+ */
+
 import React, { Component } from "react";
 import uuid from "uuid/v4";
 import SearchForm from "./SearchForm";
@@ -8,7 +12,6 @@ import image from "../stock.png";
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import styled from 'styled-components';
 import "./Home.css";
-
 import WatchStock from './WatchStock';
 
 

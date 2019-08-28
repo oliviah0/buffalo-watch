@@ -23,8 +23,8 @@ class App extends Component {
 
 
     this.state = {
-      watchlist: ["WDAY", "YELP", "AMZN"],
-      watchlistQuotes, // comment out to it can use real API
+      watchlist: ["WDAY", "YELP", "AMZN", "LULU"],
+      // watchlistQuotes, // comment out to it can use real API
       updateWatchlist: this.updateWatchlist
     };
   }

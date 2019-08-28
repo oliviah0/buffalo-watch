@@ -2,11 +2,6 @@ import axios from "axios";
 import API_KEY from "./secret";
 import moment from "moment";
 
-// https://intraday.worldtradingdata.com/api/v1/stock?symbol=WDAY&api_token=HCinSIAjBLnsxLGa9gJUSYUdlz0qqrw0JoEQaiJZjwKHEAzw0jQV1nfn4Iwg
-// https://api.worldtradingdata.com/api/v1/stock?symbol=AAPL,MSFT,HSBA.L&api_token=HCinSIAjBLnsxLGa9gJUSYUdlz0qqrw0JoEQaiJZjwKHEAzw0jQV1nfn4Iwg
-//https://api.worldtradingdata.com/api/v1/stock?symbol=${symbols}&${API_TOKEN}
-// https://api.worldtradingdata.com/api/v1/history?symbol=AAPL&sort=newest&api_token=demo
-
 const BASE_URL = "https://api.worldtradingdata.com/api/v1/";
 
 // only intraday API has a different URL with more limits to API Calls
@@ -63,4 +58,3 @@ class StockAPI {
 
 
 export default StockAPI;
-
