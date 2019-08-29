@@ -12,6 +12,7 @@ Users can reorder their stock watchlist with drag and drop functionality.
 * React-beautiful-dnd
 * React-Bootstrap
 * React-spinners
+* React-tooltip
 * Styled-components
 
 ### Component Architecture

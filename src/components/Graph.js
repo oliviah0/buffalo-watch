@@ -28,6 +28,10 @@ class Graph extends Component {
     window.addEventListener("resize", this.recalculateWidth);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.recalculateWidth);
+  }
+
   cleanDateTime(dt) {
     let format = this.props.interval ? "h:mm A" : "dddd, MMMM Do, YYYY";
     return moment(dt).format(format);

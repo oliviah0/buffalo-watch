@@ -15,7 +15,9 @@ class SearchForm extends Component {
   }
 
   componentDidMount() {
-    this.setState({ keyword: this.props.searchterm });
+    if (this.props.searchterm) {
+      this.setState({ keyword: this.props.searchterm });
+    }
   }
 
   handleChange(e) {

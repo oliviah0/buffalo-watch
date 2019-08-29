@@ -14,7 +14,8 @@ class StockFooter extends Component {
       low,
       previousClose,
       weekHigh52,
-      weekLow52
+      weekLow52,
+      marketCap
     } = this.props;
     return (
       <div>
@@ -47,8 +48,8 @@ class StockFooter extends Component {
                 <span className="text-muted">{previousClose}</span>
               </ListGroup.Item>
               <ListGroup.Item className="list-group-item">
-                <span>Close Yester</span>
-                <span className="text-muted">{volume}</span>
+                <span>Market Cap</span>
+                <span className="text-muted">{marketCap}</span>
               </ListGroup.Item>
             </ListGroup>
           </Col>

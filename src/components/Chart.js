@@ -14,6 +14,7 @@ class Chart extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      // for testing, uncomment below to avoid API call limit
       intraday,
       week,
       month
@@ -32,8 +33,7 @@ class Chart extends Component {
   }
 
   render() {
-
-    // if (!this.state.intraday) return <div>Loading</div>;
+    // if month data does not exist yet, show loading, bc it is the last dataset to be pulled in
     if (!this.state.month) return  <Spinner />;
 
     let { intraday, month, week } = this.state;
@@ -70,10 +70,7 @@ class Chart extends Component {
             <Graph data={monthArr} />
           </Tab>
         </Tabs>
-
       </div>
-
-
     );
   }
 }

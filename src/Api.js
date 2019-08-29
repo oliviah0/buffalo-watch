@@ -7,9 +7,6 @@ const BASE_URL = "https://api.worldtradingdata.com/api/v1/";
 // only intraday API has a different URL with more limits to API Calls
 const INTRADAY_BASE_URL = "https://intraday.worldtradingdata.com/api/v1/";
 
-
-const API_TOKEN = `api_token=${API_KEY}`;
-
 class StockAPI {
 
   static async getData(symbol) {
@@ -45,7 +42,6 @@ class StockAPI {
     for (let stock of result.data.data) {
       stockObj[stock.symbol] = stock;
     }
-
     return stockObj;
   }
 

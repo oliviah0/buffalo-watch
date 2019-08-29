@@ -24,7 +24,11 @@ class StockHeader extends Component {
             <Card.Text>
               Closed: {closeDate}
             </Card.Text>
-            <Button className="follow-btn" variant={followColor}>{following}</Button>
+            <Button 
+              className={"follow-btn " + following.toLowerCase()} 
+              variant={followColor}>
+              <span>{following}</span>
+            </Button>
           </Card.Body>
 
         </Card>

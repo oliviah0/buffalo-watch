@@ -19,7 +19,7 @@ class Stock extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: stockData
+      data: stockData // for testing uncomment
     };
   }
 
@@ -49,7 +49,7 @@ class Stock extends Component {
 
     } = this.state.data;
 
-    const following = this.context.watchlist.includes(symbol) ? "Watching" : "+ Follow";
+    const following = this.context.watchlist.includes(symbol) ? "Watching" : "Follow";
     const followColor = following === "Watching" ? "success" : "primary";
 
     return (

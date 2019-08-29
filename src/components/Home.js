@@ -37,7 +37,6 @@ class Home extends Component {
       />
     ));
 
-
     return (
       <div className="my-5">
         <img className="header-image my-3" src={image} alt=""/>
