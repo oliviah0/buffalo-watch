@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/buffalo-watch/static/css/main.3ef85b2c.chunk.css",
+    "main.js": "/buffalo-watch/static/js/main.ab705eeb.chunk.js",
+    "main.js.map": "/buffalo-watch/static/js/main.ab705eeb.chunk.js.map",
+    "runtime~main.js": "/buffalo-watch/static/js/runtime~main.34338215.js",
+    "runtime~main.js.map": "/buffalo-watch/static/js/runtime~main.34338215.js.map",
+    "static/css/2.5a2f7233.chunk.css": "/buffalo-watch/static/css/2.5a2f7233.chunk.css",
+    "static/js/2.739fda78.chunk.js": "/buffalo-watch/static/js/2.739fda78.chunk.js",
+    "static/js/2.739fda78.chunk.js.map": "/buffalo-watch/static/js/2.739fda78.chunk.js.map",
+    "index.html": "/buffalo-watch/index.html",
+    "precache-manifest.b51c2d842aa3fb9c4495fc31403b11f0.js": "/buffalo-watch/precache-manifest.b51c2d842aa3fb9c4495fc31403b11f0.js",
+    "service-worker.js": "/buffalo-watch/service-worker.js",
+    "static/css/2.5a2f7233.chunk.css.map": "/buffalo-watch/static/css/2.5a2f7233.chunk.css.map",
+    "static/css/main.3ef85b2c.chunk.css.map": "/buffalo-watch/static/css/main.3ef85b2c.chunk.css.map",
+    "static/media/stock.png": "/buffalo-watch/static/media/stock.38736150.png"
+  }
+}
