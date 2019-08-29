@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5faea400913e24dec23015833da37428",
+    "revision": "c9720d3aea09bbedc77fb42d9fcdd880",
     "url": "/buffalo-watch/index.html"
   },
   {
-    "revision": "5f4c08564c001ea7bd65",
+    "revision": "faa69d6ea5298c2aed5c",
     "url": "/buffalo-watch/static/css/2.5a2f7233.chunk.css"
   },
   {
-    "revision": "5eba5414c61795f61f53",
-    "url": "/buffalo-watch/static/css/main.3ef85b2c.chunk.css"
+    "revision": "1187de6587fc24ed4148",
+    "url": "/buffalo-watch/static/css/main.a4901284.chunk.css"
   },
   {
-    "revision": "5f4c08564c001ea7bd65",
-    "url": "/buffalo-watch/static/js/2.739fda78.chunk.js"
+    "revision": "faa69d6ea5298c2aed5c",
+    "url": "/buffalo-watch/static/js/2.2cae05ab.chunk.js"
   },
   {
-    "revision": "5eba5414c61795f61f53",
-    "url": "/buffalo-watch/static/js/main.ab705eeb.chunk.js"
+    "revision": "1187de6587fc24ed4148",
+    "url": "/buffalo-watch/static/js/main.ab67925d.chunk.js"
   },
   {
     "revision": "edb722ef04d773fd4761",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/buffalo-watch/precache-manifest.b51c2d842aa3fb9c4495fc31403b11f0.js"
+  "/buffalo-watch/precache-manifest.0c8b32e2619fbcc1f6bc762a8bf1f29b.js"
 );
 
 self.addEventListener('message', (event) => {
