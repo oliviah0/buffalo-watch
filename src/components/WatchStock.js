@@ -58,9 +58,6 @@ export default class WatchStock extends React.Component {
 
               <DragHandle {...provided.dragHandleProps}>
                 <i className="fas fa-ellipsis-v"></i>
-                {/* <i className="fas fa-grip-vertical"></i> */}
-                {/* <i className="fas fa-bars"></i> */}
-                {/* <i className="fas fa-grip-lines-vertical"></i> */}
               </DragHandle>
             </Container>
           </Link>
