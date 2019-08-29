@@ -2,6 +2,7 @@
   "name": "data-vis",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oliviah0.github.io/buffalo-watch",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-babel": "^5.3.0"
+    "eslint-plugin-babel": "^5.3.0",
+    "gh-pages": "^2.1.1"
   }
 }

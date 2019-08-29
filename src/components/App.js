@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'react-vis/dist/style.css';
+import ReactTooltip from 'react-tooltip';
 import Navigation from "./Navigation";
 import Routes from "./Routes";
 import StockContext from "../StockContext";
 import StockAPI from "../Api";
 import { watchlistQuotes } from "../testData.js";
-
 
 class App extends Component {
   constructor(props) {
@@ -36,14 +36,26 @@ class App extends Component {
     }
   }
 
-
-
   render() {
     return (
       <StockContext.Provider value={{ ...this.state }}>
         <div className="App">
           <Navigation />
           <Routes />
+      
+          <div className="tool-tip-info pulsing" data-tip data-for='info'>
+            <span>!</span>
+          </div>
+          <ReactTooltip
+            id='info'
+            place='left'
+            type='warning'
+          >
+            <span className="info-text">
+              Please note that there is a limit to the amount of requests<br/> 
+              per minute that can be made to the World Trading Data API.
+            </span>
+          </ReactTooltip>
         </div>
       </StockContext.Provider>
     );

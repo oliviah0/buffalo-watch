@@ -1,0 +1,33 @@
+.tool-tip-info {
+  position: absolute;
+  right: 20px;
+  top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pulsing {
+  font-weight: bold;
+  color: white;
+  font-size: 14pt;
+  width: 28px;
+  height: 28px;
+  background: lightgrey;
+  border-radius: 50%;
+  animation: shadow-pulse 2s infinite;
+}
+
+.info-text {
+  font-size: 12pt;
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+     }
+     100% {
+          box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
+     }
+}

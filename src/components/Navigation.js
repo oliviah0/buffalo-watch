@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
-import { Navbar, Nav} from 'react-bootstrap';
+import { Link } from "react-router-dom";
+import { Navbar } from 'react-bootstrap';
 import "./Navigation.css";
 
 class Navigation extends Component {
-
- 
   render() {
     return (
       <Navbar bg="light" expand="lg">
@@ -15,9 +13,6 @@ class Navigation extends Component {
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          {/* <Nav className="ml-auto">
-            <NavLink to="/stock/WDAY"> Stock</NavLink>
-          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
     );

@@ -8,9 +8,11 @@ import Home from "./Home2";
 
 
 class Routes extends Component {
+
   render() {
 
     return (
+
       <div className="container">
         <Switch>
           <Route exact path="/" render={(props) => <Home {...props} />} />
@@ -19,6 +21,7 @@ class Routes extends Component {
           <Redirect to="/" />
         </Switch>
       </div>
+
     );
   }
 
