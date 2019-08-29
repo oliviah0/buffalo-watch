@@ -15,9 +15,9 @@ class Chart extends Component {
     super(props);
     this.state = {
       // for testing, uncomment below to avoid API call limit
-      intraday,
-      week,
-      month
+      // intraday,
+      // week,
+      // month
     };
   }
 

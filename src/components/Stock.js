@@ -13,13 +13,11 @@ import { Button } from "react-bootstrap";
 
 
 class Stock extends Component {
-
   static contextType = StockContext;
-
   constructor(props) {
     super(props);
     this.state = {
-      data: stockData // for testing uncomment
+      // data: stockData // for testing uncomment
     };
   }
 
@@ -77,7 +75,6 @@ class Stock extends Component {
       </div>
     );
   }
-
 }
 
 export default Stock;

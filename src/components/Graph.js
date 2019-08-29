@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import moment from "moment";
-// import { Link } from "react-router-dom";
-// import uuid from "uuid/v4";
 
 import {
   XYPlot,
